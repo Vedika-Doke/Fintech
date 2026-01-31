@@ -31,24 +31,9 @@ PCA anonymizes these features by projecting them into an orthogonal feature spac
 Given a standardized data matrix \( X \in \mathbb{R}^{n \times d} \):
 
 1. **Standardization**
-\[
-X' = \frac{X - \mu}{\sigma}
-\]
-
 2. **Covariance Matrix**
-\[
-\Sigma = \frac{1}{n} (X')^T X'
-\]
-
 3. **Eigen Decomposition**
-\[
-\Sigma v_i = \lambda_i v_i
-\]
-
 4. **Projection**
-\[
-Z = X' V_k
-\]
 
 Where:
 - \( V_k \) contains the top-\(k\) eigenvectors
