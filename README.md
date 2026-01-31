@@ -1,4 +1,4 @@
-# Over view
+# Overview
 ---
 ## 1. Data Preprocessing
 This notebook focuses exclusively on preparing the FinTech dataset for
